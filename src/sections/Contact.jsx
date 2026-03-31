@@ -25,7 +25,7 @@ export default function Contact() {
 
     try {
       const formData = new FormData();
-      formData.append('access_key', '5feb03d3-944d-4f0e-bcf6-55a02ea1f004');
+      formData.append('access_key', import.meta.env.VITE_WEB3FORMS_KEY);
       formData.append('subject', `Portfolio Contact: ${form.name}`);
       formData.append('from_name', form.name);
       formData.append('email', form.email);
