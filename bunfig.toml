@@ -1,0 +1,6 @@
+[install]
+registry = "https://artifactory.wolterskluwer.io/artifactory/api/npm/group-npm/"
+peer = false
+
+[install.tls]
+rejectUnauthorized = false
