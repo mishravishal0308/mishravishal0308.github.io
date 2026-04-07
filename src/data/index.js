@@ -1,32 +1,32 @@
 export const personalInfo = {
   name: "Vishal Kumar",
-  role: "DevOps Engineer / SRE",
-  tagline: "Engineering reliability at scale — automating infrastructure, accelerating delivery, and building systems that never sleep.",
+  role: "DevOps | Site Reliability Engineer",
+  tagline: "Architecting high-availability systems where 99.9% is just the starting point.",
   email: "vishal.kumar030508@gmail.com",
   github: "https://github.com/mishravishal0308",
   linkedin: "https://www.linkedin.com/in/mishravishalkumar/",
   resumeUrl: "/Vishal_Kumar-Resume.pdf",
 };
 
-export const aboutSummary = `Passionate DevOps Engineer & Site Reliability Engineer with expertise in designing, automating, and optimizing mission-critical deployments across cloud platforms. I specialize in building scalable CI/CD pipelines, container orchestration with Kubernetes, and infrastructure as code — enabling teams to ship faster with confidence and reliability.`;
+export const aboutSummary = `I specialize in engineering reliability at scale. By leveraging Kubernetes orchestration and Infrastructure as Code, I transform complex cloud environments into stable, self-healing systems. My mission is to ensure mission-critical applications remain performant, secure, and always available.`;
 
 export const skillCategories = [
   {
-    title: "Cloud Platforms",
+    title: "Cloud & Platforms",
     icon: "Cloud",
-    skills: ["AWS", "Azure"],
+    skills: ["AWS", "Azure", "Linux (Ubuntu)", "Networking (VPC, DNS, Load Balancing)"],
     color: "cyan",
   },
   {
     title: "Containers & Orchestration",
     icon: "Container",
-    skills: ["Docker", "Kubernetes", "Helm", "EKS", "AKS"],
+    skills: ["Docker", "Kubernetes", "Helm", "EKS", "AKS", "Service Mesh (Istio)"],
     color: "blue",
   },
   {
-    title: "DevOps & CI/CD",
+    title: "Automation & Scripting",
     icon: "GitBranch",
-    skills: ["GitHub Actions", "Azure DevOps", "ArgoCD", "Git", "Linux"],
+    skills: ["Python", "Bash", "GitHub Actions", "Azure DevOps", "Git", "ArgoCD"],
     color: "violet",
   },
   {
@@ -38,13 +38,13 @@ export const skillCategories = [
   {
     title: "Infrastructure as Code",
     icon: "Server",
-    skills: ["Terraform", "Ansible", "CloudFormation"],
+    skills: ["Terraform", "Ansible", "CloudFormation", "Terragrunt"],
     color: "amber",
   },
   {
-    title: "Security & Networking",
+    title: "DevSecOps & Security",
     icon: "Shield",
-    skills: ["AWS Secret Manager", "SonarQube", "BlackDuck", "Orca", "Istio"],
+    skills: ["Orca Security", "SonarQube", "BlackDuck", "Coverity", "AWS Secrets Manager"],
     color: "rose",
   },
 ];
@@ -471,11 +471,11 @@ export const terminalCommands = [
   {
     command: "skills --list --category all",
     output: `CLOUD        → AWS, Azure
-CONTAINERS   → Docker, Kubernetes, Helm, Podman
-DevOps & CI/CD        → GitHub Actions, Azure DevOps, Git, ArgoCD, Linux
-MONITORING   → Prometheus, Grafana, ELK/EFK, Loki
-IAC          → Terraform, Ansible, CloudFormation
-SECURITY     → SonarQube, BlackDuck, Orca, AWS Secret Manager`,
+Containers & Orchestration  → Docker, Kubernetes, Helm, EKS, AKS, Istio
+Automation & Scripting       → Python, Bash, GitHub Actions, Azure DevOps, Git, ArgoCD
+Monitoring & Observability  → Prometheus, Grafana, ELK/EFK, Loki
+IAC          → Terraform, Ansible, CloudFormation, Terragrunt
+DevSecOps & Security     → SonarQube, BlackDuck, Orca, AWS Secret Manager`,
   },
   {
     command: "uptime --career",
